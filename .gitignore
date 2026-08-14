@@ -1,0 +1,12 @@
+# Python build artifacts
+__pycache__/
+*.py[cod]
+
+# runtime log
+autoheal.log
+probe_*.txt
+onyx_scan.txt
+
+# NOTE: .autoheal_state.json is deliberately NOT ignored.
+# CI runners are ephemeral, so the per-host scan timestamps must be
+# committed or every run rescans every host from scratch.
