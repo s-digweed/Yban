@@ -43,12 +43,12 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent
 
 TARGETS = [
-    "JP.m3u", "JP_Categories.m3u",
-    "JP_Safe.m3u", "JP_Safe_Categories.m3u",
-    "JP_NOVPN.m3u", "JP_NOVPN_Categories.m3u",
+    "YB.m3u", "YB_Categories.m3u",
+    "YB_Safe.m3u", "YB_Safe_Categories.m3u",
+    "YB_NOVPN.m3u", "YB_NOVPN_Categories.m3u",
 ]
 # extra places to look for a channel's alternate URLs (matched by name)
-ALT_SOURCES = ["JP_Backup.m3u", "JP_Auto.m3u", "YB_NewPool.m3u"]
+ALT_SOURCES = ["YB_Backup.m3u", "YB_Auto.m3u", "YB_NewPool.m3u"]
 
 # Hosts we deliberately do NOT probe. A channel on one of these is left exactly
 # as it is: no request is made, the result is 'unknown', and nothing is healed,
@@ -829,9 +829,9 @@ def lint_playlists():
             if len(names) > 1:
                 warn.append(f"{f}: same stream on {', '.join(names)} — {url[:60]}")
 
-    for flat, cat in (("JP.m3u", "JP_Categories.m3u"),
-                      ("JP_Safe.m3u", "JP_Safe_Categories.m3u"),
-                      ("JP_NOVPN.m3u", "JP_NOVPN_Categories.m3u")):
+    for flat, cat in (("YB.m3u", "YB_Categories.m3u"),
+                      ("YB_Safe.m3u", "YB_Safe_Categories.m3u"),
+                      ("YB_NOVPN.m3u", "YB_NOVPN_Categories.m3u")):
         if flat in sets and cat in sets:
             for miss in sets[flat] - sets[cat]:
                 warn.append(f"{cat}: missing {miss[1]!r} (present in {flat})")
@@ -845,7 +845,7 @@ def audit_backups():
     primehome), so a backup dying is caught BEFORE a channel needs it. Read-only
     — prints a report, changes nothing. Meant to run once a day."""
     names = {}                                    # tvg-id -> display name
-    for l in read(REPO / "JP.m3u").split("\n"):
+    for l in read(REPO / "YB.m3u").split("\n"):
         s = l[len(PARK_MARK):] if l.startswith(PARK_MARK) else l
         if s.startswith("#EXTINF"):
             m = re.search(r'tvg-id="([^"]*)"', s)
@@ -892,7 +892,7 @@ def sweep_all(verbose=False):
     _batch_allow.clear()
 
     altsrc = build_alt_sources()
-    lines = read(REPO / "JP.m3u").split("\n")
+    lines = read(REPO / "YB.m3u").split("\n")
     _, master = entries("\n".join(lines))
 
     plan = []                             # (tvg-id, name, [candidates], parked?)
@@ -962,7 +962,7 @@ def jp_lines_preview():
     """URL lines of JP.m3u — used only to report how many channels a SKIP_HOSTS
     entry is covering, before the real pass starts."""
     try:
-        return [l.strip() for l in read(REPO / "JP.m3u").split("\n")
+        return [l.strip() for l in read(REPO / "YB.m3u").split("\n")
                 if l.strip().startswith("http")]
     except Exception:                                  # noqa: BLE001
         return []
@@ -989,7 +989,7 @@ def run_once(args, state):
         print(f"  !! LINT: {w}")
 
     altsrc = build_alt_sources()
-    jp_lines = read(REPO / "JP.m3u").split("\n")
+    jp_lines = read(REPO / "YB.m3u").split("\n")
 
     # rotating subset for batched hosts, so each sweep stays small
     _batch_allow.clear()
