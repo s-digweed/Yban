@@ -210,8 +210,8 @@ https://naori-test.netgenx.site/pxx.php?shk_cid=cs05
 #PARKED##EXTINF:-1 group-title="CS放送" tvg-id="CH.619" tvg-name="Nittele Plus" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/nittele_plus.png",Nittele Plus
 #PARKED#https://akariko-bck1.sankuria.sbs/stream/jp/nittele_plus/stream-output.m3u8?mode=hls
 
-#EXTINF:-1 group-title="CS放送" tvg-id="CH.664" tvg-name="Channel Ginga" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/channel_ginga.png",Channel Ginga
-https://naori-test.netgenx.site/pxx.php?shk_cid=cs29
+#PARKED##EXTINF:-1 group-title="CS放送" tvg-id="CH.664" tvg-name="Channel Ginga" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/channel_ginga.png",Channel Ginga
+#PARKED#https://naori-test.netgenx.site/pxx.php?shk_cid=cs29
 
 #PARKED##EXTINF:-1 group-title="CS放送" tvg-id="CH.614" tvg-name="Fuji TV ONE" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/fuji_tv_one.png",Fuji TV ONE
 #PARKED#https://akariko-bck1.sankuria.sbs/stream/jp/fuji_tv_one/stream-output.m3u8?mode=hls
