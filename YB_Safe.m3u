@@ -215,8 +215,8 @@ https://cdn-apne1.tsv2.amagi.tv/linear/amg17560-fcbarcelona-fcbenglishcmag-rakut
 #EXTINF:-1 tvg-id="rch_97" tvg-name="NTV Pro Wrestling" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/ntv_pro_wrestling.png",NTV Pro Wrestling
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-ntv-pro-wrestling-hls-rakutenjp/playlist.m3u8
 
-#EXTINF:-1 tvg-id="rch_48" tvg-name="刺激ストロングSPORTS" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_48.png",刺激ストロングSPORTS
-https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-shigekisports-rakutenjp/playlist.m3u8
+#PARKED##EXTINF:-1 tvg-id="rch_48" tvg-name="刺激ストロングSPORTS" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_48.png",刺激ストロングSPORTS
+#PARKED#https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-shigekisports-rakutenjp/playlist.m3u8
 
 #EXTINF:-1 tvg-id="rch_64" tvg-name="FUEL TV" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/fuel_tv.png",FUEL TV
 https://cdn-apne1.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvjpcmaf-rakutenjp/playlist.m3u8
