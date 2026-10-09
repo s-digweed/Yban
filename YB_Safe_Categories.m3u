@@ -89,8 +89,8 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-local-contents
 #EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_37" tvg-name="エンタメ～テレDEEP" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_37.png",エンタメ～テレDEEP
 https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-nagoyanextcmaf-rakutenjp/playlist.m3u8
 
-#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_94" tvg-name="NEW KPOP" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/new_kpop.png",NEW KPOP
-https://ads.its-newid.net/api/manifest.m3u8?tp=r_channel&channel_name=newkpop&channel_id=newid_165
+#PARKED##EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_94" tvg-name="NEW KPOP" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/new_kpop.png",NEW KPOP
+#PARKED#https://ads.its-newid.net/api/manifest.m3u8?tp=r_channel&channel_name=newkpop&channel_id=newid_165
 
 #EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_102" tvg-name="QVC" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/qvc.png",QVC
 https://d1flvb4iqlercm.cloudfront.net/r-channel/live.m3u8

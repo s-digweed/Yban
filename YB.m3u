@@ -467,8 +467,8 @@ https://haru.charandom.blog/stream/jp/kbs_world/stream-output.m3u8?mode=hls
 #EXTINF:-1 tvg-id="CH.657" tvg-name="KNTV" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/kntv.png",KNTV
 https://haru.charandom.blog/stream/jp/kntv/stream-output.m3u8?mode=hls
 
-#EXTINF:-1 tvg-id="rch_94" tvg-name="NEW KPOP" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/new_kpop.png",NEW KPOP
-https://ads.its-newid.net/api/manifest.m3u8?tp=r_channel&channel_name=newkpop&channel_id=newid_165
+#PARKED##EXTINF:-1 tvg-id="rch_94" tvg-name="NEW KPOP" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/new_kpop.png",NEW KPOP
+#PARKED#https://ads.its-newid.net/api/manifest.m3u8?tp=r_channel&channel_name=newkpop&channel_id=newid_165
 
 #EXTINF:-1 tvg-id="fastch_v2_krdrm" tvg-name="韓流チャンネル (FAST)" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/fastch_v2_krdrm.png",韓流チャンネル (FAST)
 https://livetv.fastv.jp/channel_assembly/6960905473F5101B6A17/master.m3u8
