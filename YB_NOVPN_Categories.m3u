@@ -33,13 +33,13 @@ http://58.82.168.138:5002/hdgd08.m3u8?token=guoziyun&gid=hdgd08&channel=zhongyin
 #PARKED#https://haru.charandom.blog/stream/jp/tokyo_mx2/stream-output.m3u8?mode=hls
 
 #EXTINF:-1 group-title="地上デジタル" tvg-id="NHK大阪・総合_jp" tvg-name="NHK G Osaka" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/nhk_g_osaka.png",NHK G Osaka
-https://naori-test.netgenx.site/pxx.php?shk_cid=gx06
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06
 
 #EXTINF:-1 group-title="地上デジタル" tvg-id="サンテレビ_jp" tvg-name="SUN" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/sun.png",SUN
 http://58.82.168.138:5002/gx07.m3u8?token=guoziyun&gid=gx07&channel=zhongying
 
 #EXTINF:-1 group-title="地上デジタル" tvg-id="毎日テレビ_jp" tvg-name="MBS" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/mbs.png",MBS
-https://naori-test.netgenx.site/pxx.php?shk_cid=gx01
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01
 
 #PARKED##EXTINF:-1 group-title="地上デジタル" tvg-id="KBS京都_jp" tvg-name="KBS" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/kbs.png",KBS
 #PARKED#https://haru.charandom.blog/stream/jp/kbs/stream-output.m3u8?mode=hls
@@ -48,13 +48,13 @@ https://naori-test.netgenx.site/pxx.php?shk_cid=gx01
 http://58.82.168.138:5002/gx02.m3u8?token=guoziyun&gid=gx02&channel=zhongying
 
 #EXTINF:-1 group-title="地上デジタル" tvg-id="テレビ大阪_jp" tvg-name="TV Osaka" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/tv_osaka.png",TV Osaka
-https://naori-test.netgenx.site/pxx.php?shk_cid=gx05
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05
 
 #EXTINF:-1 group-title="地上デジタル" tvg-id="関西テレビ_jp" tvg-name="Kansai TV" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/kansai_tv.png",Kansai TV
 http://58.82.168.138:5002/gx03.m3u8?token=guoziyun&gid=gx03&channel=zhongying
 
 #EXTINF:-1 group-title="地上デジタル" tvg-id="読売テレビ_jp" tvg-name="ytv" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/ytv.png",ytv
-https://naori-test.netgenx.site/pxx.php?shk_cid=gx04
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04
 
 # === BS放送 ===
 
@@ -112,8 +112,8 @@ http://58.82.168.138:5002/bs08.m3u8?token=guoziyun&gid=bs08&channel=zhongying
 #PARKED##EXTINF:-1 group-title="BS放送" tvg-id="CH.630" tvg-name="WOWOW Plus" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/wowow_plus.png",WOWOW Plus
 #PARKED#https://haru.charandom.blog/stream/jp/wowow_plus/stream-output.m3u8?mode=hls
 
-#EXTINF:-1 group-title="BS放送" tvg-id="rch_46" tvg-name="Fishing Vision" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/fishing_vision.png",Fishing Vision
-https://naori-test.netgenx.site/pxx.php?shk_cid=bs25
+#PARKED##EXTINF:-1 group-title="BS放送" tvg-id="rch_46" tvg-name="Fishing Vision" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/fishing_vision.png",Fishing Vision
+#PARKED#https://naori-test.netgenx.site/pxx.php?shk_cid=bs25
 
 #EXTINF:-1 group-title="BS放送" tvg-id="rch_45" tvg-name="Weather News" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/weather_news.png",Weather News
 https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8
@@ -136,7 +136,7 @@ http://58.82.168.138:5002/cs16.m3u8?token=guoziyun&gid=cs16&channel=zhongying
 https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
 
 #EXTINF:-1 group-title="CS放送" tvg-id="CH.688" tvg-name="Green Channel" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/green_channel.png",Green Channel
-https://naori-test.netgenx.site/pxx.php?shk_cid=bs14
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs14
 
 #EXTINF:-1 group-title="CS放送" tvg-id="CH.603" tvg-name="JSport 1" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/jsport_1.png",JSport 1
 http://58.82.168.138:5002/bs18.m3u8?token=guoziyun&gid=bs18&channel=zhongying
@@ -145,10 +145,10 @@ http://58.82.168.138:5002/bs18.m3u8?token=guoziyun&gid=bs18&channel=zhongying
 http://58.82.168.138:5002/bs19.m3u8?token=guoziyun&gid=bs19&channel=zhongying
 
 #EXTINF:-1 group-title="CS放送" tvg-id="CH.606" tvg-name="JSport 3" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/jsport_3.png",JSport 3
-https://naori-test.netgenx.site/pxx.php?shk_cid=bs21
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21
 
 #EXTINF:-1 group-title="CS放送" tvg-id="CH.605" tvg-name="JSport 4" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/jsport_4.png",JSport 4
-https://naori-test.netgenx.site/pxx.php?shk_cid=bs22
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22
 
 #EXTINF:-1 group-title="CS放送" tvg-id="rch_49" tvg-name="Sky A" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/sky_a.png",Sky A
 http://58.82.168.138:5002/cs01.m3u8?token=guoziyun&gid=cs01&channel=zhongying
@@ -169,7 +169,7 @@ http://58.82.168.138:5002/cs03.m3u8?token=guoziyun&gid=cs03&channel=zhongying
 #PARKED#https://haru.charandom.blog/stream/jp/fighting_tv_samurai/stream-output.m3u8?mode=hls
 
 #EXTINF:-1 group-title="CS放送" tvg-id="CH.629" tvg-name="Toei Channel" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/toei_channel.png",Toei Channel
-https://naori-test.netgenx.site/pxx.php?shk_cid=cs27
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27
 
 #EXTINF:-1 group-title="CS放送" tvg-id="CH.628" tvg-name="Eisei Gekijo" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/eisei_gekijo.png",Eisei Gekijo
 http://58.82.168.138:5002/cs22.m3u8?token=guoziyun&gid=cs22&channel=zhongying
@@ -181,7 +181,7 @@ http://58.82.168.138:5002/cs22.m3u8?token=guoziyun&gid=cs22&channel=zhongying
 #PARKED#https://haru.charandom.blog/stream/jp/the_cinema/stream-output.m3u8?mode=hls
 
 #EXTINF:-1 group-title="CS放送" tvg-id="CH.632" tvg-name="Movie Plus" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/movie_plus.png",Movie Plus
-https://naori-test.netgenx.site/pxx.php?shk_cid=cs14
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs14
 
 #EXTINF:-1 group-title="CS放送" tvg-id="CH.634" tvg-name="Nihon Eiga Senmon" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/nihon_eiga_senmon.png",Nihon Eiga Senmon
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs23
@@ -193,7 +193,7 @@ http://58.82.168.138:5002/cs04.m3u8?token=guoziyun&gid=cs04&channel=zhongying
 http://58.82.168.138:5002/cs20.m3u8?token=guoziyun&gid=cs20&channel=zhongying
 
 #EXTINF:-1 group-title="CS放送" tvg-id="CH.661" tvg-name="Home Drama Channel" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/home_drama_channel.png",Home Drama Channel
-https://naori-test.netgenx.site/pxx.php?shk_cid=cs05
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs05
 
 #PARKED##EXTINF:-1 group-title="CS放送" tvg-id="CH.616" tvg-name="TBS Channel 1" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/tbs_channel_1.png",TBS Channel 1
 #PARKED#https://haru.charandom.blog/stream/jp/tbs_channel_1/stream-output.m3u8?mode=hls
@@ -241,7 +241,7 @@ http://58.82.168.138:5002/bs15.m3u8?token=guoziyun&gid=bs15&channel=zhongying
 http://58.82.168.138:5002/bs24.m3u8?token=guoziyun&gid=bs24&channel=zhongying
 
 #EXTINF:-1 group-title="CS放送" tvg-id="CH.669" tvg-name="Kids Staton" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/kids_staton.png",Kids Staton
-https://naori-test.netgenx.site/pxx.php?shk_cid=cs07
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07
 
 #EXTINF:-1 group-title="CS放送" tvg-id="CH.668" tvg-name="Cartoon Network" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/cartoon_network.png",Cartoon Network
 http://58.82.168.138:5002/cs25.m3u8?token=guoziyun&gid=cs25&channel=zhongying
@@ -253,7 +253,7 @@ http://58.82.168.138:5002/cs25.m3u8?token=guoziyun&gid=cs25&channel=zhongying
 http://58.82.168.138:5002/cs23.m3u8?token=guoziyun&gid=cs23&channel=zhongying
 
 #EXTINF:-1 group-title="CS放送" tvg-id="TAKARAZUKASKYSTAGE.jp" tvg-name="Takarazuka Sky Stage" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/takarazuka_sky_stage.png",Takarazuka Sky Stage
-https://naori-test.netgenx.site/pxx.php?shk_cid=cs28
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs28
 
 #EXTINF:-1 group-title="CS放送" tvg-id="スペースシャワーTV_jp" tvg-name="Space Shower TV (HD)" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/space_shower_tv.png",Space Shower TV (HD)
 http://58.82.168.138:5002/bs26.m3u8?token=guoziyun&gid=bs26&channel=zhongying
@@ -271,13 +271,13 @@ http://58.82.168.138:5002/cs18.m3u8?token=guoziyun&gid=cs18&channel=zhongying
 http://58.82.168.138:5002/cs13.m3u8?token=guoziyun&gid=cs13&channel=zhongying
 
 #EXTINF:-1 group-title="CS放送" tvg-id="CH.639" tvg-name="Music Japan TV" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/music_japan_tv.png",Music Japan TV
-https://naori-test.netgenx.site/pxx.php?shk_cid=cs06
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs06
 
 #EXTINF:-1 group-title="CS放送" tvg-id="CH.676" tvg-name="Discovery Channel" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/discovery_channel.png",Discovery Channel
 http://58.82.168.138:5002/cs08.m3u8?token=guoziyun&gid=cs08&channel=zhongying
 
 #EXTINF:-1 group-title="CS放送" tvg-id="CH.677" tvg-name="Animal Planet" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/animal_planet.png",Animal Planet
-https://naori-test.netgenx.site/pxx.php?shk_cid=cs24
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs24
 
 #EXTINF:-1 group-title="CS放送" tvg-id="rch_43" tvg-name="History" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/history.png",History
 http://58.82.168.138:5002/cs09.m3u8?token=guoziyun&gid=cs09&channel=zhongying
@@ -286,7 +286,7 @@ http://58.82.168.138:5002/cs09.m3u8?token=guoziyun&gid=cs09&channel=zhongying
 http://58.82.168.138:5002/cs10.m3u8?token=guoziyun&gid=cs10&channel=zhongying
 
 #EXTINF:-1 group-title="CS放送" tvg-id="CH.544" tvg-name="Tabi Channel" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/tabi_channel.png",Tabi Channel
-https://naori-test.netgenx.site/pxx.php?shk_cid=cs12
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs12
 
 #PARKED##EXTINF:-1 group-title="CS放送" tvg-id="rch_30" tvg-name="Tetsudo Channel" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/tetsudo_channel.png",Tetsudo Channel
 #PARKED#https://akariko-bck1.sankuria.sbs/stream/jp/tetsudo_channel/stream-output.m3u8?mode=hls
