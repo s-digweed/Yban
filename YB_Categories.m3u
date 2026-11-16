@@ -107,8 +107,8 @@ https://japaneast.av.mk.io/mediakindcdn-mediakind/ca01a143-f823-4432-b670-c22ff9
 #EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_98" tvg-name="セクシーエンタメチャンネル" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_98.png",セクシーエンタメチャンネル
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-rvariety-cmaf-rakutenjp/playlist.m3u8
 
-#EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_40" tvg-name="刺激ストロング" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_40.png",刺激ストロング
-https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-shigekicmaf-rakutenjp/playlist.m3u8
+#PARKED##EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_40" tvg-name="刺激ストロング" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_40.png",刺激ストロング
+#PARKED#https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-shigekicmaf-rakutenjp/playlist.m3u8
 
 #EXTINF:-1 group-title="ラクテンTV" tvg-id="rch_42" tvg-name="映画（年齢制限あり）" tvg-logo="https://jp-epg-26f0ce.gitlab.io/logos/rch_42.png",映画（年齢制限あり）
 https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-movie2cmaf-rakutenjp/playlist.m3u8
